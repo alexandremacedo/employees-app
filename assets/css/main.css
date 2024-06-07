@@ -1,0 +1,44 @@
+@import url("~/assets/css/variables.css");
+@import url("~/assets/css/transition.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+.cal {
+  font-family: "Calsans", sans-serif;
+}
+
+.input__search {
+  height: 40px;
+  line-height: 22px;
+  width: 100%;
+  padding: 0 16px;
+  background-repeat: no-repeat;
+  background-position: 10px 8px;
+}
+
+input[type="search"]:focus {
+  border: 1px solid var(--primary-color);
+  background-position: 9px 7px;
+}
+
+@layer base {
+  @font-face {
+    font-family: "Calsans";
+    src: url(~/assets/fonts/calsans-semibold.ttf) format("truetype");
+  }
+}

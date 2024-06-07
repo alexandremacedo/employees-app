@@ -2,6 +2,8 @@ version: "3"
 
 services:
   employees-app:
-    build: .
+    build:
+      context: .
+      dockerfile: DockerFile
     ports:
       - "3000:3000"

@@ -1,4 +1,4 @@
-<img alt="Mockup" src="https://imgur.com/a/eBuDXv6">
+<img alt="Mockup" src="https://i.imgur.com/0USvO01.jpeg">
 
 <h3 align="center">
   Employee App - List your employees
